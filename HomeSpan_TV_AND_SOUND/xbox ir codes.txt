@@ -1,0 +1,37 @@
+//////////// sorted via order in code
+
+power toggle 
+0x011bf40b
+
+power on
+0x011b54ab
+
+power off
+0x011b946b
+
+a
+0x011b6699
+
+b
+0x011ba659
+
+x
+0x011b16e9
+
+y
+0x011be619
+
+xbox button
+0x011b26d9
+
+left
+0x011b04fb
+
+right
+0x011b847b
+
+up
+0x011b7887
+
+down 
+0x011bf807

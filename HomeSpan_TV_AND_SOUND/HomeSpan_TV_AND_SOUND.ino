@@ -41,18 +41,6 @@ void setup() {
 
   new SpanAccessory();
   new Service::AccessoryInformation();
-  new Characteristic::Name("empty");
-  new Characteristic::Manufacturer("HomeSpan");
-  new Characteristic::SerialNumber("1");
-  new Characteristic::Model("cheap led");
-  new Characteristic::FirmwareRevision("1");
-  new Characteristic::Identify();
-  new Service::HAPProtocolInformation();
-  new Characteristic::Version("1");
-  new IR_TRANSMITTER(HISENSE_TV_POWER_K);
-
-  new SpanAccessory();
-  new Service::AccessoryInformation();
   new Characteristic::Name("TV POWER");
   new Characteristic::Manufacturer("HomeSpan");
   new Characteristic::SerialNumber("1");

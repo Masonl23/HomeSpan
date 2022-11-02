@@ -5,7 +5,7 @@ In this fork of HomeSpan is modified version to allow you to create a crude IR B
 
 # Files
 
-HomeSpan_LED_CONTROL folder contains example code of creating accessories to control devices using HomeSpan, similarly HomeSpan_TV_AND_SOUND folder contains example code controlling TV, Bose Audio system and Xbox One via IR commands.
+[HomeSpan_LED_CONTROL](https://github.com/Masonl23/HomeSpan/tree/master/HomeSpan_LED_CONTROL) folder contains example code of creating accessories to control devices using HomeSpan, similarly [HomeSpan_TV_AND_SOUND](https://github.com/Masonl23/HomeSpan/tree/master/HomeSpan_TV_AND_SOUND) folder contains example code controlling TV, Bose Audio system and Xbox One via IR commands.
 # Notes
 This is a rough and crude way to implement this, however it does work. In the included examples you will find lines of code dealing with reading from EEPROM, this is a workaround I found when uploading and programming over the air since I had to manually cycle its power by unplugging it, this became tiresome as they are not in convent spots to get to. This workaround removes the need to do so as it restarts itself every time you restart or reprogram the board. So once you upload OTA and its finished it will restart it self , and then restart it self again. EEPROM **is a limited write/read resource** so remove it you are worried, but you should not have an issue as it requires thousands of operations.
 ## How to 
